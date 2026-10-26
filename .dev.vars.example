@@ -1,0 +1,22 @@
+NOTION_TOKEN=secret_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NOTION_DATA_SOURCE_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# NOTION_DATABASE_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TOGGL_WEBHOOK_SECRET=your-toggl-webhook-signing-secret
+EXPECTED_CALLBACK_URL=https://your-worker.your-subdomain.workers.dev/webhook
+NOTION_TITLE_PROPERTY=Name
+NOTION_TOGGL_ID_PROPERTY=Toggl ID
+
+# Google Calendar -> aTimeLogger local sync
+# Google Calendar 设置 -> 课程表日历 -> 集成日历 -> 私密地址（iCal 格式）
+GOOGLE_CALENDAR_ICS_URL=https://calendar.google.com/calendar/ical/your-private-calendar/basic.ics
+SYNC_TIMEZONE=Asia/Shanghai
+ATIMELOGGER_BASE_URL=https://app.atimelogger.pro
+# 如果这里填的是分组名，脚本会自动使用该分组下第一个可写活动。
+ATIMELOGGER_ACTIVITY_TYPE_NAME=工作
+# 推荐长期使用：填写 aTimeLogger 登录账号和密码，由脚本运行时获取临时 token
+ATIMELOGGER_USERNAME=your-atimelogger-username
+ATIMELOGGER_PASSWORD=your-atimelogger-password
+# 可选：也可以使用登录 token；配置后会优先于账号密码
+# ATIMELOGGER_TOKEN=your-atimelogger-bearer-token
+# 可选：先 dry-run 测试，不写入 aTimeLogger
+ATIMELOGGER_DRY_RUN=true

@@ -1,0 +1,23 @@
+{
+  "name": "toggl-notion-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "sync:atimelogger-calendar": "node scripts/sync-google-calendar-to-atimelogger.mjs",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260523.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7",
+    "wrangler": "^4.94.0"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2",
+    "node-ical": "^0.26.1"
+  }
+}

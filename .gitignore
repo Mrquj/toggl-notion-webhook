@@ -1,0 +1,27 @@
+node_modules/
+.wrangler/
+.dev.vars
+.atimelogger-calendars.json
+.atimelogger-sync-settings.json
+logs/
+dist/
+coverage/
+*.log
+# --- added for GitHub publish ---
+*.zip
+*.bak
+*.bak.*
+*.bak-*
+__pycache__/
+.wrangler/
+dist/
+coverage/
+.dev.vars
+.env
+.atimelogger-calendars.json
+.atimelogger-sync-settings.json
+.toggl-atimelogger-config.json
+.toggl-atimelogger-state.json
+/aTimeLogger日历同步工具/
+/aTimeLogger日历同步工具-v2/
+/aTimeLogger日历同步工具-v3/

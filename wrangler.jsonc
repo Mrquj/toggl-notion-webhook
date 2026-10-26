@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "toggl-notion-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-01",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "NOTION_TITLE_PROPERTY": "Name",
+    "NOTION_TOGGL_ID_PROPERTY": "Toggl ID"
+  }
+}
